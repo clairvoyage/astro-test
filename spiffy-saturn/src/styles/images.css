@@ -1,0 +1,26 @@
+img {
+    object-fit: cover;
+    margin: 0;
+
+}
+
+body {
+    img {
+        width: var(--img-width, 400px);
+    }
+}
+
+
+header {
+    img {
+        width: var(--header-img-width, 800px);
+        height: var(--header-img-height, 300px);
+    }
+}
+
+.page-icon {
+    padding: 0;
+    margin: 0;
+    width: var(--page-icon-dim, 20px);
+    height: var(--page-icon-dim, 20px);
+}

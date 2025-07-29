@@ -1,0 +1,58 @@
+nav {
+    display: block;
+    margin-bottom: 0;
+    font-size: var(--nav-font-size, 15px);
+}
+
+#mini-page-links {
+    display: none;
+}
+
+#main-page-links {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    align-items: center;
+    gap: var(--nav-gap, 10px);
+}
+
+#nav-icon {
+    grid-area: nav-icon;
+}
+
+#filler1 {
+    grid-area: filler1;
+}
+
+#index {
+    grid-area: index;
+}
+
+#projects {
+    grid-area: projects;
+}
+
+#filler2 {
+    grid-area: filler2;
+}
+
+#articles {
+    grid-area: articles;
+}
+
+#inspirations {
+    grid-area: inspirations;
+}
+
+#filler3 {
+    grid-area: filler3;
+}
+
+#tools {
+    grid-area: tools;
+}
+
+#filler4 {
+    grid-area: filler4;
+}

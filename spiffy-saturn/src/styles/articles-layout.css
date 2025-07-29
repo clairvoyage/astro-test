@@ -1,0 +1,40 @@
+@import "main.css";
+
+main {
+    display: grid;
+    margin: 0;
+    grid-template-rows: 1fr auto auto auto auto auto;
+    grid-template-columns: 38vw 38vw;
+    gap: var(--grid-gap);
+    grid-template-areas: 
+        "obsidian-homepage lab-guy"
+        "notion-vs-obsidian experiments";
+
+    img {
+        width: var(--img-width-twocol, 400px);
+        height: var(--img-height-twocol, 300px);
+    }
+}
+
+header {
+    img {
+        width: var(--header-img-width, 800px);
+        height: var(--header-img-height, 400px);
+    }
+}
+
+#obsidian-homepage {
+    grid-area: obsidian-homepage;
+}
+
+#lab-guy {
+    grid-area: lab-guy;
+}
+
+#notion-vs-obsidian {
+    grid-area: notion-vs-obsidian;
+}
+
+#experiments {
+    grid-area: experiments;
+}
